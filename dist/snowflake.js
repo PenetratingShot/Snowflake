@@ -18,3 +18,18 @@ $(document).ready(function(){
     $('fadeOut').fadeOut('3000');
   });
 });
+
+//Hide .hide
+$(document).ready(function(){
+  $('.hide').hide();
+});
+
+//Show .show .btn3 (button)
+$(document).ready(function(){
+  $('body').load(function(){
+    $('.show').hide();
+  });
+  $('.btn3').click(function(){
+    $('.show').show();
+  });
+});
